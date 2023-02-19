@@ -1,0 +1,187 @@
+.navbar-brand {
+  color: #535ffb !important;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.tasks-card {
+  margin-top: 5rem;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-header {
+  width: 50%;
+  padding-left: 4rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trial-section {
+  display: flex;
+}
+
+.task-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #1e1c24;
+  margin-bottom: 1rem;
+}
+
+.task-sub {
+  color: #b1aaab;
+  margin-bottom: 1rem;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image {
+  width: 80%;
+}
+
+.trial-input {
+  margin-right: 1rem;
+}
+
+.hero-heading {
+  font-weight: 800;
+  color: #1e1c24;
+  margin-bottom: 1rem;
+}
+
+.card-1 {
+  background-color: #535ffb;
+  border-radius: 6px;
+  height: fit-content;
+  border: 0px;
+  max-width: 22rem;
+}
+
+.card-2 {
+  background-color: #85cbf1;
+  border-radius: 6px;
+  height: fit-content;
+  border: 0px;
+  max-width: 22rem;
+}
+
+.card-3 {
+  background-color: #e9da68;
+  border-radius: 6px;
+  height: fit-content;
+  border: 0px;
+  max-width: 22rem;
+}
+
+.card-1 .card-body {
+  color: white;
+}
+
+.card-2 .card-body {
+  color: white;
+}
+
+.card-3 .card-body {
+  color: white;
+}
+
+.ipad {
+  display: flex;
+  align-items: center;
+}
+
+.info-section {
+  margin-top: 90px;
+}
+
+.info-heading {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1e1c24;
+  margin-bottom: 1rem;
+}
+
+.info-section_2 {
+  margin-top: 90px;
+}
+
+.info-section_1 {
+  margin-top: 90px;
+  margin-bottom: 10rem;
+}
+
+.flex-container {
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+footer {
+  margin-top: 90px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.avatar-one {
+  height: max-content;
+  margin-bottom: 20rem;
+}
+
+.avatar-two {
+  height: max-content;
+  margin-top: 11rem;
+}
+
+.avatar {
+  height: 15rem;
+}
+
+.number-text {
+  font-size: 6rem;
+}
+
+.avatar-image {
+  height: 20rem;
+}
+
+@media screen and (max-width: 992px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .image-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .avatar-one {
+    margin-bottom: 0;
+  }
+
+  .avatar-two {
+    margin-top: 0;
+  }
+}
